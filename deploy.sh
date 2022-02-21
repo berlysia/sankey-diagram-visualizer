@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # https://<USERNAME>.github.io/<REPO> にデプロイする場合
-git push -f git@github.com:berlysia/sankey-diagram.git HEAD:gh-pages
+git push -f git@github.com:berlysia/sankey-diagram-visualizer.git HEAD:gh-pages
 
 cd -
