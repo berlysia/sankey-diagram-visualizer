@@ -6,4 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: "/sankey-diagram-visualizer/",
   root: "src",
+  build: {
+    outDir: "../dist",
+  },
 });
