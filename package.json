@@ -1,0 +1,36 @@
+{
+  "name": "sankey-diagram-visualizer",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "echo 'test me please'",
+    "lint": "run-p lint:*",
+    "lint:eslint": "eslint '**/*.{js,ts,jsx,tsx}'",
+    "lint:prettier": "prettier . --check",
+    "fix": "run-s fix:eslint fix:prettier",
+    "fix:eslint": "yarn lint:eslint --fix",
+    "fix:prettier": "yarn lint:prettier --write",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-charts": "^4.0.0"
+  },
+  "devDependencies": {
+    "@berlysia/eslint-config": "*",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "eslint": "*",
+    "husky": "*",
+    "lint-staged": "*",
+    "npm-run-all": "*",
+    "prettier": "*",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
+  }
+}
