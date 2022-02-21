@@ -3575,9 +3575,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sankey-diagram@workspace:.":
+"sankey-diagram-visualizer@workspace:.":
   version: 0.0.0-use.local
-  resolution: "sankey-diagram@workspace:."
+  resolution: "sankey-diagram-visualizer@workspace:."
   dependencies:
     "@berlysia/eslint-config": "*"
     "@types/react": ^17.0.33
